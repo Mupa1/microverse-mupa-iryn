@@ -11,16 +11,16 @@
     <h1 id="title"> freeCodeCamp Survey Form</h1>
     <p id="description"> Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
-      <label id="name-label" for="name">Name</label>
-      <input id="name" type="text" name="name" placeholder="Enter your name" required>
+      <label id="name-label" for="name">Name</label><br>
+      <input id="name" type="text" name="name" placeholder="Enter your name" required><br>
 
-      <label id="email-label" for="email">Email</label>
-      <input id="email" type="text" name="email" placeholder="Enter your email" required>
+      <label id="email-label" for="email">Email</label><br>
+      <input id="email" type="text" name="email" placeholder="Enter your email" required><br>
 
-      <label id="number-label" for="number">Age</label>
-      <input id="number" type="number" min="1" max="20" placeholder="1">
+      <label id="number-label" for="number">Age</label><br>
+      <input id="number" type="number" min="1" max="20" placeholder="1"><br>
 
-      <label id="dropdown" for="dropdown">Which option best describes your current role?</label>
+      <label id="dropdown" for="dropdown">Which option best describes your current role?</label><br>
       <select name="dropdown" id="dropdown">
         <option value="role">Select current role</option>
         <option value="option">Student</option>
@@ -28,7 +28,37 @@
         <option value="learner">Full Time Learner</option>
         <option value="not">Prefer Not to Say</option>
         <option value="others">Others</option>
-      </select>
+      </select><br>
+
+      <label for="recommendation">Would you recommend freeCodeCamp to a friend?</label><br>
+      <label><input type="radio" name="recommendation" value="definetly">Definently</label><br>
+      <label><input type="radio" name="recommendation" value="maybe">Maybe</label><br>
+      <label><input type="radio" name="recommendation" value="not sure">Not Sure</label><br>
+
+      <label for="improved">What would you like to see improved? </label><br>
+      <label><input type="checkbox" name="improved" value="Front-end Projects">Front-end Projects</label><br>
+
+      <label><input type="checkbox" name="improved" value="Back-end Projects">Back-end Projects</label><br>
+
+      <label><input type="checkbox" name="improved" value="Data Visualization">Data Visualization</label><br>
+
+      <label><input type="checkbox" name="improved" value="challenges">Challenges</label><br>
+
+      <label><input type="checkbox" name="improved" value="videos">Videos</label><br>
+      <label for="comments">Additional comments 
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter Your comments here"></textarea>
+      </label>
+      <br>
+
+
+
+
+
+
+
+      
+      
 
     </form>
 
